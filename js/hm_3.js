@@ -144,7 +144,7 @@ function getEvenNumbers(start, end) {
     for (let i = start; i <= end; i++) {
         if (i % 2 === 0) {
             evenNumbers.push(`${i}`);
-        } 
+        }
     }
     return evenNumbers;
 }
@@ -254,7 +254,4 @@ function calculateTax(amount, taxRate = 0.2) {
 console.log(calculateTax(200, 0.1));
 console.log(calculateTax(200, 0.3));
 console.log(calculateTax(200));
-
-
-
 
